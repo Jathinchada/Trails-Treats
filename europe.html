@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Food Spots with Amazing Views in Europe</title>
+    <style>
+        /* Reset and basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            color: #222;
+            margin-bottom: 30px;
+        }
+
+        /* Grid layout */
+        .spot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Spot card styling */
+        .spot {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .spot:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        .spot img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .spot-info {
+            padding: 15px;
+        }
+        .spot-info h2 {
+            font-size: 1.4em;
+            color: #444;
+            margin-bottom: 8px;
+        }
+        .spot-info p {
+            font-size: 0.95em;
+            color: #666;
+        }
+        .spot-info p.location {
+            color: #888;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Top Food Spots with Amazing Views in Europe</h1>
+
+    <div class="spot-grid">
+        <!-- Spot 1 -->
+        <div class="spot">
+            <img src="img/greece.jpg" alt="800 Floga">
+            <div class="spot-info">
+                <a href="europe/800.html">
+                <h2>800 Floga</h2></a>
+                <p class="location">Santorini, Greece</p>
+                <p>A cliffside restaurant offering breathtaking views of the Santorini caldera and beautiful sunsets.</p>
+            </div>
+        </div>
+
+        <!-- Spot 2 -->
+        <div class="spot">
+            <img src="img/france.jpeg" alt="Le Jules Verne">
+            <div class="spot-info">
+                <a href="europe/le ju.html">
+                <h2>Le Jules Verne</h2></a>
+                <p class="location">Paris, France</p>
+                <p>Located on the Eiffel Tower’s second floor, offering a stunning view of Paris’s iconic skyline.</p>
+            </div>
+        </div>
+
+        <!-- Spot 3 -->
+        <div class="spot">
+            <img src="img/switzerland.jpeg" alt="Chauenstein">
+            <div class="spot-info">
+                <a href="europe/Chauenstein.html">
+                <h2>Chauenstein</h2></a>
+                <p class="location">Fürstenau, Switzerland</p>
+                <p>Experience fine dining with views of the Swiss Alps in this historic restaurant setting.</p>
+            </div>
+        </div>
+
+        <!-- Spot 4 -->
+        <div class="spot">
+            <img src="img/italy.jpeg" alt="La Sponda">
+            <div class="spot-info">
+                <h2>La Sponda</h2>
+                <p class="location">Positano, Italy</p>
+                <p>A romantic restaurant on the Amalfi Coast with views of the sea and beautiful Positano.</p>
+            </div>
+        </div>
+
+        <!-- Spot 5 -->
+        <div class="spot">
+            <img src="img/scotland.jpeg" alt="The Witchery">
+            <div class="spot-info">
+                <h2>The Witchery</h2>
+                <p class="location">Edinburgh, Scotland</p>
+                <p>Known for its gothic atmosphere, The Witchery offers views of Edinburgh’s historic architecture.</p>
+            </div>
+        </div>
+
+        <!-- Spot 6 -->
+        <div class="spot">
+            <img src="img/spain.jpeg" alt="Terraza Martínez">
+            <div class="spot-info">
+                <h2>Terraza Martínez</h2>
+                <p class="location">Barcelona, Spain</p>
+                <p>A rooftop spot with stunning views of Barcelona's coastline and a Mediterranean-inspired menu.</p>
+            </div>
+        </div>
+
+        <!-- Spot 7 -->
+        <div class="spot">
+            <img src="img/austria.jpeg" alt="Steirereck">
+            <div class="spot-info">
+                <h2>Steirereck</h2>
+                <p class="location">Vienna, Austria</p>
+                <p>Located in Stadtpark, this restaurant offers scenic park views alongside world-renowned Viennese cuisine.</p>
+            </div>
+        </div>
+
+        <!-- Spot 8 -->
+        <div class="spot">
+            <img src="img/norway.jpeg" alt="Restaurant Cornelius">
+            <div class="spot-info">
+                <h2>Restaurant Cornelius</h2>
+                <p class="location">Bergen, Norway</p>
+                <p>Located on an island, offering fresh seafood with views of the fjords and Bergen coastline.</p>
+            </div>
+        </div>
+
+        <!-- Spot 9 -->
+        <div class="spot">
+            <img src="img/portugal.jpeg" alt="Tagide">
+            <div class="spot-info">
+                <h2>Tagide</h2>
+                <p class="location">Lisbon, Portugal</p>
+                <p>A restaurant with views of Lisbon’s historic cityscape and the Tagus River.</p>
+            </div>
+        </div>
+
+        <!-- Spot 10 -->
+        <div class="spot">
+            <img src="img/iceland.jpeg" alt="Perlan">
+            <div class="spot-info">
+                <h2>Perlan</h2>
+                <p class="location">Reykjavik, Iceland</p>
+                <p>This glass-domed restaurant offers panoramic views of Reykjavik and the surrounding mountains.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

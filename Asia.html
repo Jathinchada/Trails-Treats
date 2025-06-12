@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Food Spots with Amazing Views in Asia</title>
+    <style>
+        /* Reset and basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            color: #222;
+            margin-bottom: 30px;
+        }
+
+        /* Grid layout */
+        .spot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Spot card styling */
+        .spot {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .spot:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        .spot img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .spot-info {
+            padding: 15px;
+        }
+        .spot-info h2 {
+            font-size: 1.4em;
+            color: #444;
+            margin-bottom: 8px;
+        }
+        .spot-info p {
+            font-size: 0.95em;
+            color: #666;
+        }
+        .spot-info p.location {
+            color: #888;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Top Food Spots with Amazing Views in Asia</h1>
+
+    <div class="spot-grid">
+        <!-- Spot 1 -->
+        <div class="spot">
+            <img src="img/Marina bay.jpeg" alt="Sky Dining at Marina Bay Sands">
+            <div class="spot-info">
+                <a href="asia/sky.html">
+                <h2>Sky Dining at Marina Bay Sands</h2></a>
+                <p class="location">Singapore</p>
+                <p>Enjoy panoramic views of Singapore’s skyline and Marina Bay from the iconic rooftop infinity pool.</p>
+            </div>
+        </div>
+
+        <!-- Spot 2 -->
+         <div class="spot">
+            <img src="img/rangmahal.jpeg" alt="Rang Mahal">
+            <div class="spot-info">
+                <a href="asia/rang.html">
+                <h2>Rang Mahal</h2></a>
+                <p class="location">New Delhi, India</p>
+                <p>A rooftop location with stunning views of the city skyline and an elegant ambiance.</p>
+            </div>
+        </div>
+        
+
+        <!-- Spot 3 -->
+        <div class="spot">
+            <img src="img/tokyo.jpeg" alt="Narisawa">
+            <div class="spot-info">
+                <a href="asia/narisawa.html">
+                <h2>Narisawa</h2></a>
+                <p class="location">Tokyo, Japan</p>
+                <p>Located in the heart of Tokyo, Narisawa combines fine dining with views of the bustling Tokyo streets.</p>
+            </div>
+        </div>
+
+        <!-- Spot 4 -->
+        <div class="spot">
+            <img src="img/hongkong.jpeg" alt="Amber">
+            <div class="spot-info">
+                <h2>Amber</h2>
+                <p class="location">Hong Kong</p>
+                <p>Located in the Landmark Mandarin Oriental, this spot offers views of Hong Kong’s vibrant skyline.</p>
+            </div>
+        </div>
+
+        <!-- Spot 5 -->
+        <div class="spot">
+            <img src="img/rooftop.jpeg" alt="Vertigo">
+            <div class="spot-info">
+                <h2>Vertigo</h2>
+                <p class="location">Bangkok, Thailand</p>
+                <p>One of Bangkok’s highest rooftop bars, offering spectacular sunset views over the city.</p>
+            </div>
+        </div>
+
+        <!-- Spot 6 -->
+        <div class="spot">
+            <img src="img/riverfront.jpeg" alt="Longtail">
+            <div class="spot-info">
+                <h2>Longtail</h2>
+                <p class="location">Yangon, Myanmar</p>
+                <p>This riverfront spot provides a relaxing view of the Irrawaddy River and a casual dining experience.</p>
+            </div>
+        </div>
+
+        <!-- Spot 7 -->
+        <div class="spot">
+            <img src="img/spaoga.jpeg" alt="Spago by Wolfgang Puck">
+            <div class="spot-info">
+                <h2>Spago by Wolfgang Puck</h2>
+                <p class="location">Singapore</p>
+                <p>Located at Marina Bay Sands, this renowned restaurant provides skyline views and an elegant ambiance.</p>
+            </div>
+        </div>
+
+        <!-- Spot 8 -->
+        <div class="spot">
+            <img src="img/zafferona.jpeg" alt="Zafferano">
+            <div class="spot-info">
+                <h2>Zafferano</h2>
+                <p class="location">Singapore</p>
+                <p>This Italian restaurant offers breathtaking views of Marina Bay and Singapore's financial district.</p>
+            </div>
+        </div>
+
+        <!-- Spot 9 -->
+        <div class="spot">
+            <img src="img/mikla.jpeg" alt="Mikla">
+            <div class="spot-info">
+                <h2>Mikla</h2>
+                <p class="location">Istanbul, Turkey</p>
+                <p>Overlooking the Bosphorus, Mikla offers a unique dining experience with views of Istanbul’s historic sites.</p>
+            </div>
+        </div>
+
+        <!-- Spot 10 --><div class="spot">
+            <img src="img/bangkok.jpeg" alt="Sirocco">
+            <div class="spot-info">
+                <h2>Sirocco</h2>
+                <p class="location">Bangkok, Thailand</p>
+                <p>This rooftop restaurant on the 63rd floor offers stunning city views and a memorable dining experience.</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+</body>
+</html>

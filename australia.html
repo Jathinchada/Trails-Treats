@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Food Spots with Amazing Views in Australia</title>
+    <style>
+        /* Reset and basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            color: #222;
+            margin-bottom: 30px;
+        }
+
+        /* Grid layout */
+        .spot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Spot card styling */
+        .spot {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .spot:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        .spot img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .spot-info {
+            padding: 15px;
+        }
+        .spot-info h2 {
+            font-size: 1.4em;
+            color: #444;
+            margin-bottom: 8px;
+        }
+        .spot-info p {
+            font-size: 0.95em;
+            color: #666;
+        }
+        .spot-info p.location {
+            color: #888;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Top Food Spots with Amazing Views in Australia</h1>
+
+    <div class="spot-grid">
+        <!-- Spot 1 -->
+        <div class="spot">
+            <img src="img/sydney.jpeg" alt="Quay Restaurant">
+            <div class="spot-info">
+                <a href="australia/quay.html">
+                <h2>Quay Restaurant</h2></a>
+                <p class="location">Sydney, NSW</p>
+                <p>Enjoy breathtaking views of Sydney Harbour and the Opera House from this iconic fine-dining spot.</p>
+            </div>
+        </div>
+
+        <!-- Spot 2 -->
+        <div class="spot">
+            <img src="img/eureka.jpeg" alt="Eureka 89">
+            <div class="spot-info">
+                <a href="australia/eurake.html">
+                <h2>Eureka 89</h2></a>
+                <p class="location">Melbourne, VIC</p>
+                <p>Located on the 89th floor of the Eureka Tower, this restaurant offers stunning views of Melbourne’s skyline.</p>
+            </div>
+        </div>
+
+        <!-- Spot 3 -->
+        <div class="spot">
+            <img src="img/QLD.jpeg" alt="Rick Shores">
+            <div class="spot-info">
+                <a href="australia/rick.html">
+                <h2>Rick Shores</h2></a>
+                <p class="location">Burleigh Heads, QLD</p>
+                <p>This beachfront spot offers panoramic ocean views and a relaxed, tropical dining experience.</p>
+            </div>
+        </div>
+
+        <!-- Spot 4 -->
+        <div class="spot">
+            <img src="img/syd tower.jpeg" alt="Skyfeast at Sydney Tower">
+            <div class="spot-info">
+                <h2>Skyfeast at Sydney Tower</h2>
+                <p class="location">Sydney, NSW</p>
+                <p>A revolving restaurant offering a 360-degree view of Sydney, perfect for skyline and harbor views.</p>
+            </div>
+        </div>
+
+        <!-- Spot 5 -->
+        <div class="spot">
+            <img src="img/Aria.jpeg" alt="Aria">
+            <div class="spot-info">
+                <h2>Aria</h2>
+                <p class="location">Brisbane, QLD</p>
+                <p>With views of the Brisbane River and Story Bridge, Aria offers an elegant, scenic dining experience.</p>
+            </div>
+        </div>
+
+        <!-- Spot 6 -->
+        <div class="spot">
+            <img src="img/summit.jpeg" alt="Summit Restaurant & Bar">
+            <div class="spot-info">
+                <h2>Summit Restaurant & Bar</h2>
+                <p class="location">Mount Coot-Tha, QLD</p>
+                <p>Located on Mount Coot-Tha, this restaurant offers stunning panoramic views of Brisbane and beyond.</p>
+            </div>
+        </div>
+
+        <!-- Spot 7 -->
+        <div class="spot">
+            <img src="img/sails.jpeg" alt="Sails on the Bay">
+            <div class="spot-info">
+                <h2>Sails on the Bay</h2>
+                <p class="location">Elwood, VIC</p>
+                <p>This waterfront restaurant provides beachside dining with gorgeous views of Port Phillip Bay.</p>
+            </div>
+        </div>
+
+        <!-- Spot 8 -->
+        <div class="spot">
+            <img src="img/Storehouswe.jpeg" alt="The Shorehouse">
+            <div class="spot-info">
+                <h2>The Shorehouse</h2>
+                <p class="location">Swanbourne, WA</p>
+                <p>Enjoy ocean views and sunsets over the Indian Ocean from this relaxed, beachside spot.</p>
+            </div>
+        </div>
+
+        <!-- Spot 9 -->
+        <div class="spot">
+            <img src="img/C restaurant.jpeg" alt="C Restaurant">
+            <div class="spot-info">
+                <h2>C Restaurant</h2>
+                <p class="location">Perth, WA</p>
+                <p>Perth’s only revolving restaurant, offering 360-degree views of the city and surrounding landscape.</p>
+            </div>
+        </div>
+
+        <!-- Spot 10 -->
+        <div class="spot">
+            <img src="img/vende .jpeg" alt="Vue de Monde">
+            <div class="spot-info">
+                <h2>Vue de Monde</h2>
+                <p class="location">Melbourne, VIC</p>
+                <p>High up in the Rialto Tower, this fine dining restaurant provides incredible views of Melbourne’s skyline.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
