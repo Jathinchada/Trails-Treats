@@ -33,5 +33,5 @@
 To run this project locally:
 
 
-git clone https://github.com/Jathinchada/Trails-and-Treats.git
+git clone https://github.com/Jathinchada/Trails-Treats.git
 
