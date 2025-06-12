@@ -31,7 +31,5 @@
 ## 🚀 Getting Started
 
 To run this project locally:
-
-
-git clone https://github.com/Jathinchada/Trails-Treats.git
+site is live at https://jathinchada.github.io/Trails-Treats/
 
